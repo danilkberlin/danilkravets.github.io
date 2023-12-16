@@ -1,0 +1,33 @@
+:root{
+    --color: #101007;
+    --color1: #666666;
+    --color2: #3A3A1A;
+    --color3: #65652C;
+    --color4: #8F8F3F;
+    --color5: #BABA51;
+    --color6: #E4E464;
+}
+
+.font-famili-inter{
+    font-family: 'Inter', sans-serif;
+}
+.font-famili-kalnia{
+    font-family: 'Kalnia', serif;
+}
+.font-famili-open-sans{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+section{
+    padding: 100px 0;
+}
+
+.home{
+    background: var(--color1);
+}
+
+.header-text{
+    color: var(--color5);
+    font-size: 64px;
+}
