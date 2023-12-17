@@ -15,6 +15,7 @@
     --color13: #202220;
     --coloк14: #202220;
     --color15: #202220;
+    --color16: #fff;
 }
 
 .font-famili-inter{
@@ -39,12 +40,13 @@ section{
     fill: var(--color12);
 }
 
-.navbar-background-color{
-    background: var(--color8);
-
-} 
+.navbar-background-color,
 .home{
     background: var(--color8);
+} 
+
+.about{
+    background: linear-gradient(180deg, var(--color8) 50%, var(--color) 50%);
 }
 
 .navbar-text-color{
@@ -55,10 +57,25 @@ section{
 }
 
 .header-text{
-    background: linear-gradient(180deg, var(--color9), var(--color10));
+    background: linear-gradient(180deg, var(--color9) 25%, var(--color10));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: var(--color9);
     font-size: 64px;
-    text-align: center;
+}
+
+.contact-box{
+    border: 1px solid var(--color1);  /* redakt*/
+    background: var(--color1);  /* redakt*/
+}
+
+.button-learn-more{
+    background: linear-gradient(180deg, var(--color9) 25%, var(--color10));
+    border: 1px solid var(--color11);
+    color: var(--color8);
+}
+
+.button-learn-more:hover{
+    box-shadow: 1px 1px 10px 4px var(--color12), 1px 2px 20px 8px var(--color), 1px 4px 40px 16px var(--color1);
+    color: var(--color16);
 }
