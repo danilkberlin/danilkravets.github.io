@@ -1,11 +1,20 @@
 :root{
-    --color: #101007;
+    --color: #131210;
     --color1: #666666;
     --color2: #3A3A1A;
     --color3: #65652C;
     --color4: #8F8F3F;
     --color5: #BABA51;
     --color6: #E4E464;
+    --color7: #0c0d0c;
+    --color8: #202220;
+    --color9: #ffd700; /* Gold*/
+    --color10: #F0C800; /* Gold*/
+    --color11: #E1B900; /* Gold*/
+    --color12: #FFE60F; /* Gold*/
+    --color13: #202220;
+    --coloк14: #202220;
+    --color15: #202220;
 }
 
 .font-famili-inter{
@@ -18,16 +27,38 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html body{
+    font-family: 'Open Sans', sans-serif;
+}
 
 section{
     padding: 100px 0;
 }
 
+.navbar-logo{
+    fill: var(--color12);
+}
+
+.navbar-background-color{
+    background: var(--color8);
+
+} 
 .home{
-    background: var(--color1);
+    background: var(--color8);
+}
+
+.navbar-text-color{
+    color: var(--color9);
+}
+.navbar-text-color:hover{
+    color: var(--color6);
 }
 
 .header-text{
-    color: var(--color5);
+    background: linear-gradient(180deg, var(--color9), var(--color10));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--color9);
     font-size: 64px;
+    text-align: center;
 }
