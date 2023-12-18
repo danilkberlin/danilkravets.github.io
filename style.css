@@ -12,9 +12,9 @@
     --color10: #F0C800; /* Gold*/
     --color11: #E1B900; /* Gold*/
     --color12: #FFE60F; /* Gold*/
-    --color13: #202220;
-    --coloк14: #202220;
-    --color15: #202220;
+     /*---color13:;
+    -coloк14: #202220;
+    --color15: #202220; */
     --color16: #fff;
 }
 
@@ -65,17 +65,25 @@ section{
 }
 
 .contact-box{
-    border: 1px solid var(--color1);  /* redakt*/
-    background: var(--color1);  /* redakt*/
+    border: 1px solid var(--color7);  
+    background: var(--color7);  
 }
 
-.button-learn-more{
+ .button-learn-more{
     background: linear-gradient(180deg, var(--color9) 25%, var(--color10));
     border: 1px solid var(--color11);
     color: var(--color8);
 }
 
 .button-learn-more:hover{
-    box-shadow: 1px 1px 10px 4px var(--color12), 1px 2px 20px 8px var(--color), 1px 4px 40px 16px var(--color1);
+    color: var(--color16);
+    background: linear-gradient(90deg, var(--color10), var(--color11), var(--color12), var(--color9));
+}
+
+.button-learn-more:active{
+    box-shadow: 1px 1px 2px 1px var(--color7),
+    1px 1px 8px 2px var(--color8), 
+    1px 1px 16px 4px var(--color11);
+    border: 1px solid var(--color7);
     color: var(--color16);
 }
