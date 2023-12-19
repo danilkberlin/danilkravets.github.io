@@ -41,13 +41,10 @@ section{
 }
 
 .navbar-background-color,
-.home{
+.home, .about, .services{
     background: var(--color8);
 } 
 
-.about{
-    background: linear-gradient(180deg, var(--color8) 50%, var(--color) 50%);
-}
 
 .navbar-text-color{
     color: var(--color9);
@@ -57,7 +54,7 @@ section{
 }
 
 .header-text{
-    background: linear-gradient(180deg, var(--color9) 25%, var(--color10));
+    background: linear-gradient(180deg, var(--color10), var(--color11), var(--color12), var(--color9));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: var(--color9);
@@ -65,14 +62,14 @@ section{
 }
 
 .contact-box{
-    border: 1px solid var(--color7);  
-    background: var(--color7);  
+    border: 1px solid var(--color);
+    background: var(--color);
 }
 
  .button-learn-more{
     background: linear-gradient(180deg, var(--color9) 25%, var(--color10));
     border: 1px solid var(--color11);
-    color: var(--color8);
+    color: var(--color16);
 }
 
 .button-learn-more:hover{
@@ -86,4 +83,19 @@ section{
     1px 1px 16px 4px var(--color11);
     border: 1px solid var(--color7);
     color: var(--color16);
+}
+
+.container-services{
+    border: 1px solid var(--color12);
+}
+
+.text-services{
+    background: linear-gradient(180deg, var(--color10), var(--color11), var(--color12), var(--color9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--color9);
+}
+
+.services-icon{
+    fill: var(--color11);
 }
