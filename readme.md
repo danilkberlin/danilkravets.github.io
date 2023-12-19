@@ -2,5 +2,7 @@
 
 Web Site
 
-- About me 
-- Services
+- style About me 
+- style Services
+- Background color in portfolio
+- foto portfolio
