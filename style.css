@@ -68,8 +68,9 @@ section{
 }
 
 .contact-box{
-    border: 1px solid var(--color);
-    background: var(--color);
+    border: 1px solid #202220ea;
+    background: rgb(33, 33, 33);
+    box-shadow: 1px 1px 17px 4px rgb(38, 38, 38);
 }
 
  .button-learn-more{
