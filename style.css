@@ -41,7 +41,7 @@ section{
 }
 
 .navbar-background-color,
-.home, .about, .services, .my-portfolio{
+.home, .about, .services, .my-portfolio, .contact{
     background: var(--color8);
 } 
 
@@ -99,17 +99,17 @@ section{
 .services-icon{
     fill: var(--color11);
 }
-
-.images-container{
-    /* border: 1px solid #666666;
-    background: #666666; */
-}
-
-.foto{
-    /* box-shadow: 1px 2px 40px 10px var(--color7); */
-    filter: drop-shadow(1px 2px 40px 10px var(--color11));
-    border: 25px solid;
-}
 .images-top{
     filter: drop-shadow(1px 2px 5px  var(--color8));
 }
+
+/* images portfolio */
+.images-container{
+    border: 1px solid #666666;
+    background: #666666;
+}
+
+.foto{
+    filter: drop-shadow(1px 2px 40px 10px var(--color11)); 
+}
+/* ___________________________________________________________________ */
