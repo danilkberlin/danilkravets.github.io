@@ -54,11 +54,17 @@ section{
 }
 
 .header-text{
-    background: linear-gradient(180deg, var(--color10), var(--color11), var(--color12), var(--color9));
+    background: linear-gradient(to right, #fff 15%, var(--color11) 35%,  #E4E464);
+    background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: var(--color9);
-    font-size: 64px;
+    animation: gradient 3s linear infinite;
+}
+
+@keyframes gradient{
+    0% {background-position: 0% 75%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 70%;}
 }
 
 .contact-box{
