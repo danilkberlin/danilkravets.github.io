@@ -40,7 +40,7 @@ section{
     fill: var(--color12);
 }
 
-.navbar-background-color,
+.navbar-background-color, .blog,
 .home, .about, .services, .my-portfolio, .contact{
     background: var(--color8);
 } 
