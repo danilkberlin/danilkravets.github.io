@@ -9,3 +9,6 @@ Web Site
 - foto portfolio
 - style contact 
 - adaptation footer nav
+- adaptation Servise
+- adaptation Portfolio
+- adaptation Blog
