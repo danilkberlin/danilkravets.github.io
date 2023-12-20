@@ -41,7 +41,7 @@ section{
 }
 
 .navbar-background-color, .blog,
-.home, .about, .services, .my-portfolio, .contact{
+.home, .about, .services, .my-portfolio, .contact, .footer{
     background: var(--color8);
 } 
 

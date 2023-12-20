@@ -8,3 +8,4 @@ Web Site
 - box shadow in portfolio
 - foto portfolio
 - style contact 
+- adaptation footer nav
