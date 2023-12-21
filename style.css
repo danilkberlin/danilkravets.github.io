@@ -54,7 +54,7 @@ section{
 }
 
 .header-text{
-    background: linear-gradient(to right, #fff 15%, var(--color11) 35%,  #E4E464);
+    background: linear-gradient( to right, #fff 15%, var(--color11) 35%,  #E4E464);
     background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
