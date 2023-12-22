@@ -84,32 +84,32 @@
                     </div>
                 </div>
                 <div class="row">
-                  <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+                  <div class="col-12">
+                    <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
                       <input type="hidden" name="access_key" value="4878c4e4-af45-4a59-99de-d184feaab1ef">
                       <div class="col">
-                          <div class="row">
-                              <div class="col-12">
-                                  <input type="text" class="form-control background-color-input-contact text-white" name="name" placeholder="Enter Name*" value="" required="">
-                              </div>
-                              <div class="col-6">
-                                  <input type="email" class="form-control background-color-input-contact" name="email" placeholder="Enter Email*" required="">
-                              </div>
-                              <div class="col-6">
-                                  <input type="tel" class="form-control background-color-input-contact" name="number" placeholder="Enter Number*">
-                              </div>
-                              <div class="col-12">
-                                  <textarea class="form-control background-color-input-contact" placeholder="Enter Message" name="message" cols="30" rows="10"></textarea>
-                              </div>
-                              <div class="col-5">
-                                <div class="h-captcha" data-captcha="true" data-sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"><iframe src="https://newassets.hcaptcha.com/captcha/v1/1bcdbdd/static/hcaptcha.html#frame=checkbox&amp;id=0l3ijhgnmjgi&amp;host=danilkberlin.github.io&amp;sentry=true&amp;reportapi=https%3A%2F%2Faccounts.hcaptcha.com&amp;recaptchacompat=off&amp;custom=false&amp;hl=ru&amp;tplinks=on&amp;pstissuer=https%3A%2F%2Fpst-issuer.hcaptcha.com&amp;sitekey=50b2fe65-b00b-4b9e-ad62-3ba471098be2&amp;theme=light&amp;origin=https%3A%2F%2Fdanilkberlin.github.io" tabindex="0" frameborder="0" scrolling="no" allow="private-state-token-issuance 'src'; private-state-token-redemption 'src'" title="Виджет с флажком для проверки безопасности hCaptcha" data-hcaptcha-widget-id="0l3ijhgnmjgi" data-hcaptcha-response="" style="pointer-events: auto; width: 303px; height: 78px; overflow: hidden;"></iframe><textarea id="h-captcha-response-0l3ijhgnmjgi" name="h-captcha-response" style="display: none;"></textarea></div>
-                                  <button class="btn button-learn-more py-3 px-5" type="submit">Submit
-                                    Message
-                                  </button>
-                              </div>
+                        <div class="row">
+                          <div class="col-12">
+                            <input type="text" class="form-control my-2 background-color-input-contact" name="name" placeholder="Enter Name*" value="" required>
                           </div>
+                          <div class="col-6">
+                            <input type="email" class="form-control my-2 background-color-input-contact" name="email" placeholder="Enter Email*" required>
+                          </div>
+                          <div class="col-6">
+                            <input type="tel" class="form-control my-2 background-color-input-contact" name="number" placeholder="Enter Number*">
+                          </div>
+                          <div class="col-12">
+                            <textarea class="form-control my-2 background-color-input-contact" placeholder="Enter Message" name="message" cols="30" rows="10"></textarea>
+                          </div>
+                          <div class="col-5">
+                            <div class="h-captcha" data-captcha="true"></div>
+                            <button class="btn button-learn-more my-3 mx-auto" type="submit">Submit  Message</button>
+                          </div>
+                        </div>
                       </div>
-                  </form>
-              </div>
+                    </form>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
