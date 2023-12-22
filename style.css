@@ -40,7 +40,7 @@ section{
     fill: var(--color12);
 }
 
-.navbar-background-color, .blog,
+.navbar-background-color, .blog, .what-have-i-lerned,
 .home, .about, .services, .my-portfolio, .contact, .footer, .top{
     background: var(--color8);
 } 
@@ -127,5 +127,7 @@ section{
 }
 
 .background-color-corusel{
-    background-color: #666666;
+    border: 1px solid #202220ea;
+    background: rgb(33, 33, 33);
+    box-shadow: 1px 1px 17px 4px rgb(38, 38, 38);
 }
