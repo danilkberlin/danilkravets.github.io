@@ -131,3 +131,9 @@ section{
     background: rgb(33, 33, 33);
     box-shadow: 1px 1px 17px 4px rgb(38, 38, 38);
 }
+
+.background-color-input-contact{
+    background-color: #202220ea;
+    color: var(--color16);
+    border: 1px solid grey;
+}
