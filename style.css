@@ -1,10 +1,10 @@
 :root{
-    --background-color: rgba(109, 104, 117);   
-    --text: rgba(243, 219, 206, 0.8078);
-    --nav-transform: rgba(255, 205, 178, 1);   
-    --ht-text-button: rgba(255, 180, 162, 1);
-    --button-background:rgba(229, 152, 155, 0.5451);
-    --elements: rgba(181, 131, 141, 1);
+    --background-color: #6d6875;   
+    --text: #f3dbce;
+    --nav-transform: #ffcdb2;   
+    --ht-text-button: #ffb4a2;
+    --button-background: rgba(229, 152, 155, 0.5451);
+    --elements: #b5838d;
 }
 
 .font-family-playfair-display{
@@ -19,6 +19,31 @@
     font-family: "Roboto", sans-serif;
 }
 
+section{
+    padding: 150px 0;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+/* HT */
+.main-text{
+    color: var(--ht-text-button);
+}
+
+/* All buton */
+
+button{
+    border: none;
+    background-color: var(--button-background);
+    color: var(--ht-text-button);
+    border-radius: 50px;
+    padding: 9px 32px;
+}
+
+p{
+    color: var(--text);
+}
+/* ------------------------------------------------------------------------------ */
 
 body{
     background-color: var(--background-color);
@@ -30,6 +55,10 @@ body{
 
 .nav-text-color:hover{
     color: var(--nav-transform);
-    border-bottom: 1px solid var(--nav-transform);
-    
+    border-bottom: 1px solid var(--nav-transform);  
+}
+
+.text-and-button-and-paragraph{
+    border-left: 3px solid var(--button-background);
+    padding: 0 0px 0 7px;
 }
