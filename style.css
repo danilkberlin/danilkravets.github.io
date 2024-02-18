@@ -6,7 +6,7 @@
     --button-background: rgba(229, 152, 155, 0.5451);
     --elements: #b5838d;
 }
-
+/* font family  */
 .font-family-playfair-display{
     font-family: "Playfair Display", serif;
 }
@@ -18,9 +18,9 @@
 .font-family-roboto{
     font-family: "Roboto", sans-serif;
 }
-
+/* section  */
 #services, #about{
-    padding: 150px 0;
+    padding: 100px 0;
 }
 
 /* ------------------------------------------------------------------------------ */
@@ -54,12 +54,13 @@ p{
 }
 
 .bg-image{
-    background-image: url(images/enrico-camerra-lofi-synthwave-radio-key.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.012) 0%, rgba(0, 0, 0, 0.8) 100%), url(images/enrico-camerra-lofi-synthwave-radio-key.jpg);
     min-height: 100%;
     padding: 300px 0;
     background-size:cover;
     background-blend-mode: multiply;
 }
+
 
 /*------------------------ border and box contand whis Icon----------------- */
 .box-container-services{
