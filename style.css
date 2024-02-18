@@ -1,186 +1,195 @@
-:root{
-    --background-color: #6d6875;   
-    --text: #f3dbce;
-    --nav-transform: #ffcdb2;   
-    --ht-text-button: #ffb4a2;
-    --button-background: rgba(229, 152, 155, 0.5451);
-    --elements: #b5838d;
+:root {
+  --background-color: #6d6875;
+  --text: #f3dbce;
+  --nav-transform: #ffcdb2;
+  --ht-text-button: #ffb4a2;
+  --button-background: rgba(229, 152, 155, 0.5451);
+  --elements: #b5838d;
 }
 /* font family  */
-.font-family-playfair-display{
-    font-family: "Playfair Display", serif;
+.font-family-playfair-display {
+  font-family: "Playfair Display", serif;
 }
 
-.font-family-inter{
-    font-family: "Inter", sans-serif;
+.font-family-inter {
+  font-family: "Inter", sans-serif;
 }
 
-.font-family-roboto{
-    font-family: "Roboto", sans-serif;
+.font-family-roboto {
+  font-family: "Roboto", sans-serif;
 }
 /* section  */
-#services, #about, #portfolio{
-    padding: 100px 0;
+#services,
+#about,
+#portfolio {
+  padding: 100px 0;
 }
 
 /* ------------------------------------------------------------------------------ */
 
 /* -------------- HT --------------------------- */
-.main-text{
-    color: var(--ht-text-button);
+.main-text {
+  color: var(--ht-text-button);
 }
 
 /* ------------------All buton-------------------- */
 
-button{
-    border: none;
-    background-color: var(--button-background);
-    color: var(--ht-text-button);
-    border-radius: 50px;
-    padding: 9px 32px;
+button {
+  border: none;
+  background-color: var(--button-background);
+  color: var(--ht-text-button);
+  border-radius: 50px;
+  padding: 9px 32px;
 }
 /* --------------------All paragraph------------------- */
-p{
-    color: var(--text);
+p {
+  color: var(--text);
 }
 
 /*---------------------------- background images ---------------------*/
 .bg-image {
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.bg-image{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.012) 0%, rgba(0, 0, 0, 0.8) 100%), url(images/enrico-camerra-lofi-synthwave-radio-key.jpg);
-    min-height: 100%;
-    padding: 300px 0;
-    background-size:cover;
-    background-blend-mode: multiply;
+.bg-image {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.012) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(images/enrico-camerra-lofi-synthwave-radio-key.jpg);
+  min-height: 100%;
+  padding: 300px 0;
+  background-size: cover;
+  background-blend-mode: multiply;
 }
-
 
 /*------------------------ border and box contand whis Icon----------------- */
-.box-container-services{
-    border: 1px solid var(--button-background);
-    border-radius: 15px;
-    padding: 35px;
-    fill: var(--elements);
+.box-container-services {
+  border: 1px solid var(--button-background);
+  border-radius: 15px;
+  padding: 35px;
+  fill: var(--elements);
 }
 
-.box-container-services:hover{
-    fill: var(--nav-transform);
+.box-container-services:hover {
+  fill: var(--nav-transform);
 }
-
 
 /* ---------------------Project------------------------------------------------- */
 .panels {
-    min-height: 125px;
-    min-height: 629px;
-    overflow: hidden;
-    display: flex;
-    gap: 45px;
+  min-height: 125px;
+  min-height: 629px;
+  overflow: hidden;
+  display: flex;
+  gap: 45px;
 }
 
 .panel {
-    background: var(--background-color);
-    box-shadow: inset 0 0 0 5px rgba(255,255,255,0.1);
-    color: var(--text);
-    text-align: center;
-    align-items: center;
-    transition:
-      font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
-      flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
-      background 0.2s;
-    font-size: 20px;
-    background-size: cover;
-    background-position: center;
-    flex: 1;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    border-radius: 145px;
+  background: var(--background-color);
+  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.1);
+  color: var(--text);
+  text-align: center;
+  align-items: center;
+  transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),
+    flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s;
+  font-size: 20px;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 145px;
 }
 
-  .panel1 { background-image:url(images/1.png); }
-  .panel2 { background-image:url(images/2.png); }
-  .panel4 { background-image:url(images/4.png); }
-  .panel5 { background-image:url(images/5.png); }
+.panel1 {
+  background-image: url(images/1.png);
+}
+.panel2 {
+  background-image: url(images/2.png);
+}
+.panel4 {
+  background-image: url(images/4.png);
+}
+.panel5 {
+  background-image: url(images/5.png);
+}
 
-  /* Flex Items */
+/* Flex Items */
 .panel > * {
-    margin: 0;
-    width: 100%;
-    transition: transform 0.5s;
-    flex: 1 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 0;
+  width: 100%;
+  transition: transform 0.5s;
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.panel > *:first-child { transform: translateY(-100%); }
-.panel.open-active > *:first-child { transform: translateY(0); }
-.panel > *:last-child { transform: translateY(100%); }
-.panel.open-active > *:last-child { transform: translateY(0); }
+.panel > *:first-child {
+  transform: translateY(-100%);
+}
+.panel.open-active > *:first-child {
+  transform: translateY(0);
+}
+.panel > *:last-child {
+  transform: translateY(100%);
+}
+.panel.open-active > *:last-child {
+  transform: translateY(0);
+}
 
 .panel p {
-    text-transform: uppercase;
-    font-family: 'Playfair Display', cursive;
-    text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-    font-size: 2em;
+  text-transform: uppercase;
+  font-family: "Playfair Display", cursive;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+  font-size: 2em;
 }
 
 .panel p:nth-child(2) {
-    font-size: 4em;
+  font-size: 4em;
 }
 
 .panel.open {
-    flex: 4;
-    font-size: 20px;
+  flex: 4;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 600px) {
-.panel p {
+  .panel p {
     font-size: 1em;
-    }
+  }
 }
-
 
 /* ------------------------------------------------------------------------------ */
 
-body{
-    background-color: var(--background-color);
+body {
+  background-color: var(--background-color);
 }
 
-.nav-text-color{
-    color: var(--text);
+.nav-text-color {
+  color: var(--text);
 }
 
-.nav-text-color:hover{
-    color: var(--nav-transform);
+.nav-text-color:hover {
+  color: var(--nav-transform);
 }
 
-.text-and-button-and-paragraph{
-    border-left: 3px solid var(--button-background);
-    padding: 0 0px 0 7px;
+.text-and-button-and-paragraph {
+  border-left: 3px solid var(--button-background);
+  padding: 0 0px 0 7px;
 }
 
-.figura{
-    width: 400px;
-    height: 400px;
-    background-color: var(--elements);
-    border-radius: 50%;
+.figura {
+  width: 400px;
+  height: 400px;
+  background-color: var(--elements);
+  border-radius: 50%;
 }
 /* ------------------------------------------------------------------------------ */
-
-
-
-
-
-
-
-
 
 /* ------------------------------------Adaptation------------------------------- */
