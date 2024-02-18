@@ -137,8 +137,8 @@ p{
 }
 
 .panel.open {
-    flex: 5;
-    font-size: 40px;
+    flex: 4;
+    font-size: 20px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -158,10 +158,9 @@ body{
     color: var(--text);
 }
 
-/* .nav-text-color:hover{
+.nav-text-color:hover{
     color: var(--nav-transform);
-    border-bottom: 1px solid var(--nav-transform);  
-} */
+}
 
 .text-and-button-and-paragraph{
     border-left: 3px solid var(--button-background);
