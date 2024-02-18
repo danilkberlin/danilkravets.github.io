@@ -43,6 +43,20 @@ button{
 p{
     color: var(--text);
 }
+
+/* background images */
+#top{
+    padding: 300px 0;
+    background:  url(images/enrico-camerra-lofi-synthwave-radio-key.jpg), rgba(0, 0, 0, 0.5);
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+.box-container-services{
+    border: 1px solid var(--button-background);
+    border-radius: 15px;
+    padding: 35px;
+}
 /* ------------------------------------------------------------------------------ */
 
 body{
@@ -53,10 +67,10 @@ body{
     color: var(--text);
 }
 
-.nav-text-color:hover{
+/* .nav-text-color:hover{
     color: var(--nav-transform);
     border-bottom: 1px solid var(--nav-transform);  
-}
+} */
 
 .text-and-button-and-paragraph{
     border-left: 3px solid var(--button-background);
@@ -70,8 +84,3 @@ body{
     border-radius: 50%;
 }
 /* ------------------------------------------------------------------------------ */
-/* background images */
-#top{
-    padding: 300px 0;
-    background-image: url(images/enrico-camerra-lofi-synthwave-radio-key.jpg);
-}
