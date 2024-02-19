@@ -75,7 +75,7 @@ p {
     ),
     url(images/enrico-camerra-lofi-synthwave-radio-key2.jpg);
   min-height: 100%;
-  padding: 150px 0;
+  padding: 100px 0;
   background-size: cover;
   background-blend-mode: multiply;
 }
@@ -183,6 +183,12 @@ p {
     border-radius: 15px;
     padding: 45px 25px;
     backdrop-filter: blur(12px) ;
+}
+
+.input-background-color-border-and-color{
+    color: var(--text);
+    background-color: var(--button-background);
+    border: 1px solid white;
 }
 /* ------------------------------------------------------------------------------ */
 
