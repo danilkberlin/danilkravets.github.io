@@ -81,10 +81,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-text-color" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-text-color" href="#">Contacts</a>
+                <a class="nav-link nav-text-color" href="#contacts">Contacts</a>
               </li>
             </ul>
           </div>
@@ -350,7 +347,7 @@
 
       <!-- --------------------Section #4  Portfolio--------------- -->
       <sectioon id="portfolio">
-        <div class="container text-center">
+        <div class="container text-center py-5">
           <div class="row">
             <div class="col-12 py-5">
               <h1 class="main-text">Portfolio</h1>
@@ -380,6 +377,39 @@
           </div>
         </div>
       </sectioon>
+
+      <!-- ---------------------Seection #5  Contacts------------------- -->
+      <section id="contacts">
+        <div class="bg-image-end">
+          <div class="container text-center">
+            <div class="row my-5">
+              <div class="col">
+                <h1 class="main-text">Contacts</h1>
+              </div>
+            </div>
+            <div class="container-contacts-box my-5">
+              <div class="row">
+                <div class="col-12">
+                  <input type="text" class="form-control" name="name" placeholder="Enter Name*" value="" required="">
+                </div>
+                <div class="col-6">
+                  <input type="email" class="form-control" name="email" placeholder="Enter Email*" required="">
+                </div>
+                <div class="col-6">
+                  <input type="tel" class="form-control" name="number" placeholder="Enter Number*">
+                </div>
+                <div class="col-12">
+                  <textarea class="form-control" placeholder="Enter Message" name="message" cols="30" rows="10"></textarea>
+                </div>
+                <div class="col-5">
+                  <button class="w-100" type="submit">Submit
+                      Message</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer"></footer>
 
@@ -395,6 +425,8 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Contact JS -->
+    <script src="https://web3forms.com/client/script.js" async="" defer=""></script>
     <!-- Script -->
     <script src="script.js"></script>
   </body>

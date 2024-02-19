@@ -21,8 +21,8 @@
 /* section  */
 #services,
 #about,
-#portfolio {
-  padding: 100px 0;
+#portfolio{
+  padding: 120px 0;
 }
 
 /* ------------------------------------------------------------------------------ */
@@ -47,7 +47,8 @@ p {
 }
 
 /*---------------------------- background images ---------------------*/
-.bg-image {
+.bg-image,
+.bg-image-end {
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -67,6 +68,17 @@ p {
   background-blend-mode: multiply;
 }
 
+.bg-image-end{
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.012) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(images/enrico-camerra-lofi-synthwave-radio-key2.jpg);
+  min-height: 100%;
+  padding: 150px 0;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
 /*------------------------ border and box contand whis Icon----------------- */
 .box-container-services {
   border: 1px solid var(--button-background);
@@ -164,7 +176,14 @@ p {
     font-size: 1em;
   }
 }
+/* Contacts */
 
+.container-contacts-box{
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 45px 25px;
+    backdrop-filter: blur(12px) ;
+}
 /* ------------------------------------------------------------------------------ */
 
 body {
