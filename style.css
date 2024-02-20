@@ -21,7 +21,7 @@
 /* section  */
 #services,
 #about,
-#portfolio{
+#portfolio {
   padding: 120px 0;
 }
 
@@ -68,8 +68,8 @@ p {
   background-blend-mode: multiply;
 }
 
-.bg-image-end{
-    background-image: linear-gradient(
+.bg-image-end {
+  background-image: linear-gradient(
       rgba(0, 0, 0, 0.012) 0%,
       rgba(0, 0, 0, 0.8) 100%
     ),
@@ -178,17 +178,17 @@ p {
 }
 /* Contacts */
 
-.container-contacts-box{
-    border: 2px solid white;
-    border-radius: 15px;
-    padding: 45px 25px;
-    backdrop-filter: blur(12px) ;
+.container-contacts-box {
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 45px 25px;
+  backdrop-filter: blur(12px);
 }
 
-.input-background-color-border-and-color{
-    color: var(--text);
-    background-color: var(--button-background);
-    border: 1px solid white;
+.input-background-color-border-and-color {
+  color: var(--text);
+  background-color: var(--button-background);
+  border: 1px solid white;
 }
 /* ------------------------------------------------------------------------------ */
 
