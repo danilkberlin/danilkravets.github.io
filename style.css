@@ -21,7 +21,7 @@
 /* section  */
 #services,
 #about,
-#portfolio {
+#portfolio-container, #blog {
   padding: 120px 0;
 }
 
@@ -192,7 +192,7 @@ p {
 }
 /* ------------------------------------------------------------------------------ */
 /* background */
-#about {
+#about{
   background: rgb(26,49,217);
 	background: linear-gradient(90deg, rgba(26,49,217,0.7) 0%, rgba(78,88,115,1) 15%, rgba(78,88,115,1) 85%, rgba(164,28,224,0.7) 100%);
 	background-size: 107% 107%;
@@ -210,6 +210,15 @@ p {
 		background-position: 0% 50%;
 	}
 }
+
+#services{
+  background: linear-gradient(90deg, rgba(78, 88, 115, 1) 50%, rgba(30, 31, 52, 1) 50%);
+}
+
+#portfolio-container{
+  background: linear-gradient(90deg, rgba(78, 88, 115, 1) 50%, rgba(30, 31, 52, 1) 50%);
+}
+
 .nav-text-color {
   color: var(--text);
 }
