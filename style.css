@@ -191,11 +191,25 @@ p {
   border: 1px solid white;
 }
 /* ------------------------------------------------------------------------------ */
-
-body {
-  background-color: var(--background-color);
+/* background */
+#about {
+  background: rgb(26,49,217);
+	background: linear-gradient(90deg, rgba(26,49,217,0.7) 0%, rgba(78,88,115,1) 15%, rgba(78,88,115,1) 85%, rgba(164,28,224,0.7) 100%);
+	background-size: 107% 107%;
+	animation: gradient-blik 15s ease infinite;
 }
 
+@keyframes gradient-blik {
+  0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 .nav-text-color {
   color: var(--text);
 }
