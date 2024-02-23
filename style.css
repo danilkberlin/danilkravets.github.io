@@ -212,11 +212,16 @@ p {
 }
 
 #services{
-  background: linear-gradient(90deg, rgba(78, 88, 115, 1) 50%, rgba(30, 31, 52, 1) 50%);
+  background: linear-gradient(90deg, rgba(78, 88, 115, 1) 50%,  rgba(30, 31, 52, 1) 50%);
 }
 
+
 #portfolio-container{
-  background: linear-gradient(90deg, rgba(78, 88, 115, 1) 50%, rgba(30, 31, 52, 1) 50%);
+  background: linear-gradient(-90deg, rgba(78, 88, 115, 1) 50%, rgba(30, 31, 52, 1) 50%);
+}
+
+#blog{
+  background-color: rgba(78, 88, 115, 1);
 }
 
 .nav-text-color {
@@ -241,3 +246,6 @@ p {
 /* ------------------------------------------------------------------------------ */
 
 /* ------------------------------------Adaptation------------------------------- */
+.d-flex-null{
+  display: 0;
+}
