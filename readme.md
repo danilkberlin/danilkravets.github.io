@@ -1,10 +1,10 @@
 # Edit
 
-Web Site
+Plan 
+- Dark Mode 
+- New :root
+- Text
+- Drop Button Learn More
+- Hide Show 
+- 
 
-- Start
-- NavBar (Work)
-- Top 
-- About (Work)
-- Servis
-- Portjolio 
