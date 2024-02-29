@@ -6,6 +6,8 @@
   --button-background: rgba(229, 152, 155, 0.5451);
   --elements: #b5838d;
 }
+
+
 /* font family  */
 .font-family-playfair-display {
   font-family: "Playfair Display", serif;
@@ -246,6 +248,4 @@ p {
 /* ------------------------------------------------------------------------------ */
 
 /* ------------------------------------Adaptation------------------------------- */
-.d-flex-null{
-  display: 0;
-}
+
