@@ -248,7 +248,8 @@ p {
 /* ------------------------------------------------------------------------------ */
 
 /* ------------------------------------Adaptation------------------------------- */
-.background-nav-dropdawn{
-  background-color: rgba(78,88,115,1);
-  border: 1px solid var(--text);
+.change-lang{
+  background-image: url(images/enrico-camerra-lofi-synthwave-radio-key.jpg);
+  color: var(--text);
+  border-radius: 15px;
 }
