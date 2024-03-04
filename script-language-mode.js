@@ -169,6 +169,18 @@ const langArr = {
     document.querySelector('.servicesConsultation').innerHTML = langArr['servicesConsultation'][hash];
     document.querySelector('.servicesGraphicDevelopmentText').innerHTML = langArr['servicesGraphicDevelopmentText'][hash];
     document.querySelector('.services-container').innerHTML = langArr['services'][hash];
+    document.querySelector('.blog-container').innerHTML = langArr['blog'][hash];
+    document.querySelector('.button-know-more').innerHTML = langArr['KnowMore'][hash];
+    document.querySelector('.blogTitelText').innerHTML = langArr['blogTitelText'][hash];
+    document.querySelector('.blogMainText').innerHTML = langArr['blogMainText'][hash];
+    document.querySelector('.portfolio-blog').innerHTML = langArr['portfolio'][hash];
+    document.querySelector('.know-more-container-colon1').innerHTML = langArr['KnowMore'][hash];
+    document.querySelector('.know-more-container-colon2').innerHTML = langArr['KnowMore'][hash];
+    document.querySelector('.know-more-container-colon3').innerHTML = langArr['KnowMore'][hash];
+    document.querySelector('.know-more-container-colon4').innerHTML = langArr['KnowMore'][hash];
+    document.querySelector('.SubmitMessage').innerHTML = langArr['SubmitMessage'][hash];
+    document.querySelector('.contacts-container').innerHTML = langArr['contacts'][hash];
+
   }
 
   changeLanguage()
