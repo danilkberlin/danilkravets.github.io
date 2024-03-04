@@ -1,3 +1,5 @@
+const select = document.querySelector('select');
+const allLanguage = ['en', 'de', 'ua'];
 const langArr = {
     //nav bar
     'about': {
@@ -34,11 +36,6 @@ const langArr = {
       'en' : `Hello, I'm Danylo`,
       'de' : 'Hallo, Ich bin Danylo',
       'ua' : 'Привіт мене звати Данило'
-    },
-    'topTetxNummerTwo': {
-      'en' : 'I a Web-Development',
-      'de' : 'Ich bin Webentwickler',
-      'ua' : 'Я веб-розробник'
     },
     'topTetxNummerTwo': {
       'en' : 'I a Web-Development',
@@ -125,6 +122,53 @@ const langArr = {
       'de' : 'Nachricht senden',
       'ua' : 'Надіслати повідомлення'
     },
+    'title' : {
+      'en' : 'Danylo Kravets personal website',
+      'de' : 'Danylo Kravets persönliche website',
+      'ua' : 'Данило Кравець персональний вебсторінка'
+    },
   
   
+  };
+
+  select.addEventListener('change', changeURLLanguage);
+  
+  function changeURLLanguage(){
+    let lang = select.value; 
+    location.href = window.location.pathname + '#' + lang;
+    location.reload();
   }
+
+  function changeLanguage (){
+    let hash = window.location.hash;
+    hash = hash.substr(1);
+    console.log(hash)
+    if(!allLanguage.includes(hash)){
+        location.href = window.location.pathname + '#en';
+        location.reload(); 
+    }
+    select.value = hash; 
+    document.querySelector('title').innerHTML = langArr['title'][hash];
+    document.querySelector('.about').innerHTML = langArr['about'][hash];
+    document.querySelector('.services').innerHTML = langArr['services'][hash];
+    document.querySelector('.blog').innerHTML = langArr['blog'][hash];
+    document.querySelector('.portfolio').innerHTML = langArr['portfolio'][hash];
+    document.querySelector('.contacts').innerHTML = langArr['contacts'][hash];
+    document.querySelector('.text-top1').innerHTML = langArr['topTextNummerOne'][hash];
+    document.querySelector('.topTetxNummerTwo').innerHTML = langArr['topTetxNummerTwo'][hash];
+    document.querySelector('.aboutTextBlockOneNummerOne').innerHTML = langArr['aboutTextBlockOneNummerOne'][hash];
+    document.querySelector('.aboutTextBlockOneNummerTwo').innerHTML = langArr['aboutTextBlockOneNummerTwo'][hash];
+    document.querySelector('.aboutTextBlockOneNummerThree').innerHTML = langArr['aboutTextBlockOneNummerThree'][hash];
+    document.querySelector('.aboutTextBlockOneNummerFour').innerHTML = langArr['aboutTextBlockOneNummerFour'][hash];
+    document.querySelector('.aboutTextBlockTwo').innerHTML = langArr['aboutTextBlockTwo'][hash];
+    document.querySelector('.KnowMore').innerHTML = langArr['KnowMore'][hash];
+    document.querySelector('.servicesWebDevelopment').innerHTML = langArr['servicesWebDevelopment'][hash];
+    document.querySelector('.servicesWebDevelopmentText').innerHTML = langArr['servicesWebDevelopmentText'][hash];
+    document.querySelector('.servicesGraphicDevelopment').innerHTML = langArr['servicesGraphicDevelopment'][hash];
+    document.querySelector('.servicesGraphicDevelopmentText').innerHTML = langArr['servicesGraphicDevelopmentText'][hash];
+    document.querySelector('.servicesConsultation').innerHTML = langArr['servicesConsultation'][hash];
+    document.querySelector('.servicesGraphicDevelopmentText').innerHTML = langArr['servicesGraphicDevelopmentText'][hash];
+    document.querySelector('.services-container').innerHTML = langArr['services'][hash];
+  }
+
+  changeLanguage()
