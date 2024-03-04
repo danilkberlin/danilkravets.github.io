@@ -97,7 +97,7 @@ const langArr = {
       'de' : 'Beratung',
       'ua' : 'Консультація'
     },
-    'servicesGraphicDevelopmentText' : {
+    'servicesConsultationText' : {
       'en' : 'My experience is your compass in the world of business and technology. Receive personalized consultations on web strategies, design, and effective utilization of online resources.',
       'de' : 'Meine Erfahrung ist Ihr Kompass in der Welt von Wirtschaft und Technologie. Erhalten Sie personalisierte Beratungen zu Webstrategien, Design und effektiver Nutzung von Online-Ressourcen.',
       'ua' : 'Мій досвід - це ваш компас у світі бізнесу та технологій. Отримуйте персоналізовані консультації з веб-стратегій, дизайну та ефективного використання онлайн-ресурсів.'
@@ -167,7 +167,7 @@ const langArr = {
     document.querySelector('.servicesGraphicDevelopment').innerHTML = langArr['servicesGraphicDevelopment'][hash];
     document.querySelector('.servicesGraphicDevelopmentText').innerHTML = langArr['servicesGraphicDevelopmentText'][hash];
     document.querySelector('.servicesConsultation').innerHTML = langArr['servicesConsultation'][hash];
-    document.querySelector('.servicesGraphicDevelopmentText').innerHTML = langArr['servicesGraphicDevelopmentText'][hash];
+    document.querySelector('.servicesConsultationText').innerHTML = langArr['servicesConsultationText'][hash];
     document.querySelector('.services-container').innerHTML = langArr['services'][hash];
     document.querySelector('.blog-container').innerHTML = langArr['blog'][hash];
     document.querySelector('.button-know-more').innerHTML = langArr['KnowMore'][hash];
