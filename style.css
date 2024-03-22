@@ -228,6 +228,7 @@ p {
 
 .nav-text-color {
   color: var(--text);
+  font-size: 25px;
 }
 
 .nav-text-color:hover {
@@ -252,4 +253,8 @@ p {
   background-image: url(images/enrico-camerra-lofi-synthwave-radio-key.jpg);
   color: var(--text);
   border-radius: 15px;
+}
+
+.navbar{
+  --bs-navbar-active-color: var(--elements);
 }
